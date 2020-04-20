@@ -1,11 +1,12 @@
-import React,{Compotent} from 'react'
+import React,{Component} from 'react'
 
-class Film extends Compotent{
+class Film extends Component{
     render(){
         return(
-            <div className="film">
-                Hello I am a comment
+        <div className="film">
             </div>
         )
     }
 }
+
+export default Film;
